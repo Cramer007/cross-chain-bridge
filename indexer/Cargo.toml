@@ -1,0 +1,16 @@
+[package]
+name = "indexer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+ethers = "2.0"
+dotenv = "0.15"
+diesel = { version = "2.2", features = ["sqlite"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+diesel_migrations = "2.2.0"
+tokio-stream = "0.1.17"
+futures = "0.3.31"
+web3 = { version = "0.19", features = ["http"] }
