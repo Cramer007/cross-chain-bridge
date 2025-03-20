@@ -51,3 +51,5 @@ async fn main() {
 //bdd : SELECT * FROM deposits; SELECT * FROM distributions; ".tables" pour voir les tables
 
 //je me suis arreter a peut etre stopper les doublons ( a nouveau) dans la table distributions , mais je peut aussi faire entre deux token differents . mais j'ai reussis mon premeir bridge! 
+
+// au cas ou au debut le forge contract demarrer :  forge create --rpc-url https://eth-sepolia.g.alchemy.com/v2/AwXNQB1sZceWq5qoYpeR7U0jsYYvoBHv --private-key 0x03771d4edf1ec9eeb581e8b2b3b6cc3b7c259473213165bf3dea7bef0ae951a1 contracts/src/TestToken.sol:TestToken --broadcast
